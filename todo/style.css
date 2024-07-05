@@ -1,0 +1,67 @@
+body {
+          
+    margin: 0;
+      font-family: Arial, sans-serif;
+  }
+  .navbar {
+      margin-bottom: 20px;
+      border-radius: 5px;
+  }
+  .navbar-brand {
+      font-size: 25px;
+      color: white;
+  }
+  
+  .form-container {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .form-container input[type="text"] {
+      
+      margin-right: 10px;
+      border: 2px solid #007bff;
+      border-radius: 5px;
+      padding: 10px;
+  }
+  .form-container input[type="submit"] {
+      width: 10%;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+  }
+  .table-container {
+      display: flex;
+      justify-content: center;
+  }
+
+
+.table tbody tr.checked {
+    text-decoration: line-through;
+
+   
+}
+
+  .table {
+      width: 70%;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+ 
+  .btn-sm {
+      padding: 5px 10px;
+      font-size: 13px;
+      border-radius: 5px;
+  }
+  .btn-warning {
+      margin-right: 5px;
+  }
+  .error-message {
+      color: red;
+      text-align: center;
+  }
